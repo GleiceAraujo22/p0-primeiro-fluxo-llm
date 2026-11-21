@@ -221,3 +221,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# P0 - Arquivos locais e proteção de credenciais
+.env*
+!.env.example
+
+# Logs e arquivos de execução
+logs/
+*.log
+
+# Arquivos de experimentação local
+/gleicearaujo638gmailcomteste.tar
+/testeapi.ipynb
+/teste_openai.ipynb
